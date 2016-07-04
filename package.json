@@ -1,0 +1,45 @@
+{
+  "name": "jwt_rest_example",
+  "version": "1.0.0",
+  "description": "Tests for the awesome API by Chris",
+  "main": "domain='www' server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "mocha --timeout 60000 --reporter list"
+  },
+  "author": "Chris",
+  "license": "ISC",
+  "dependencies": {
+  "restify": "^3.0.3"
+  },
+  "devDependencies": {
+  "mocha": "^2.2.5",
+  "chai" : "*", 
+  "querystring":"*",
+  "http":"*",
+  "chai":"*",
+  "bluebird":"*",
+  "restify":"*",
+  "bluebird":"*",
+  "node-rest-client":"*"
+  },
+  "dependencies": {
+  "mocha": "^2.2.5",
+  "chai" : "*", 
+  "querystring":"*",
+  "http":"*",
+  "chai":"*",
+  "bluebird":"*",
+  "restify":"*",
+  "bluebird":"*",
+  "node-rest-client":"*"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "rest",
+    "jwt",
+    "api"
+  ]
+}
